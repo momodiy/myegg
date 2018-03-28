@@ -1,0 +1,2 @@
+# myegg
+from egg.js
