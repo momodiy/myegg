@@ -10,6 +10,7 @@ class HomeController extends Controller {
     async index() {
         this.ctx.body = 'Hello world';
     }
+
     async fuck() {
         this.ctx.body = 'Steven Lee';
     }
