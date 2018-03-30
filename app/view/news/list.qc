@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/public/css/news.css" />
 </head>
 <body>
+{{ helper.relativeTime(item.time) }}
 <ul class="news-view view">
     {% for item in list %}
     <li class="item">
@@ -13,5 +14,7 @@
     </li>
     {% endfor %}
 </ul>
+{{ helper.relativeTime(item.time) }}
+99999
 </body>
 </html>
